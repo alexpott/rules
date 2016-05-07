@@ -18,14 +18,14 @@ interface RulesComponentRepositoryInterface {
   /**
    * Adds a component resolver.
    *
-   * @param $resolver_name
-   *   The name under which to add the resolver.
    * @param \Drupal\rules\Engine\RulesComponentResolverInterface $resolver
    *   The resolver.
+   * @param string $resolver_name
+   *   The name under which to add the resolver.
    *
    * @return $this
    */
-  public function addComponentResolver($resolver_name, RulesComponentResolverInterface $resolver);
+  public function addComponentResolver(RulesComponentResolverInterface $resolver, $resolver_name);
 
   /**
    * Gets the component for the given ID.

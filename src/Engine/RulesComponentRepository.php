@@ -70,7 +70,7 @@ class RulesComponentRepository implements RulesComponentRepositoryInterface {
   /**
    * {@inheritdoc}
    */
-  public function addComponentResolver($resolver_name, RulesComponentResolverInterface $resolver) {
+  public function addComponentResolver(RulesComponentResolverInterface $resolver, $resolver_name) {
     $this->resolvers[$resolver_name] = $resolver;
     return $this;
   }
