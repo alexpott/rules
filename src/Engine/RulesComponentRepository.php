@@ -75,10 +75,6 @@ class RulesComponentRepository implements RulesComponentRepositoryInterface {
     return $this;
   }
 
-  public function dump() {
-    return $this->resolvers;
-  }
-
   /**
    * {@inheritdoc}
    */
