@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\rules\Engine\RulesComponentRepositoryInterface.
- */
-
 namespace Drupal\rules\Engine;
 
 /**
@@ -62,6 +57,7 @@ interface RulesComponentRepositoryInterface {
    * @param string $resolver
    *   The resolver of the component. See ::get() for a list of supported
    *   resolvers.
+   *
    * @return \Drupal\rules\Engine\RulesComponent[]
    *   An array of components, keyed by component ID.
    *

@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\rules\Engine\RulesComponentResolverInterface.
- */
-
 namespace Drupal\rules\Engine;
 
 /**
@@ -12,7 +7,7 @@ namespace Drupal\rules\Engine;
  *
  * A resolver is responsible for getting components for a certain provider. The
  * component resolvers are added to the repository via tagged services and
- * provider name is determined
+ * provider name is determined.
  */
 interface RulesComponentResolverInterface {
 

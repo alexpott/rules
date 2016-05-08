@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\rules\ComponentResolver\ComponentConfigResolver.
- */
-
 namespace Drupal\rules\ComponentResolver;
 
 use Drupal\Core\Entity\EntityTypeManagerInterface;

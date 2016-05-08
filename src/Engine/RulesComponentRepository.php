@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\rules\Engine\RulesComponentRepository.
- */
-
 namespace Drupal\rules\Engine;
 
 use Drupal\Core\Cache\CacheBackendInterface;
@@ -40,7 +35,7 @@ class RulesComponentRepository implements RulesComponentRepositoryInterface {
   protected $cacheBackend;
 
   /**
-   * The language manager
+   * The language manager.
    *
    * @var \Drupal\Core\Language\LanguageManagerInterface
    */
@@ -114,4 +109,5 @@ class RulesComponentRepository implements RulesComponentRepositoryInterface {
     }
     return $results;
   }
+
 }
